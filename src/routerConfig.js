@@ -18,16 +18,18 @@ import Setting from './pages/Setting';
 import Fail from './pages/Fail';
 import { Empty, Forbidden, NotFound, ServerError } from './pages/Exception';
 import { getRouterData } from './utils/utils';
+import Page16 from './pages/Page16';
+import BugFix from './pages/BugFix';
 import { asideMenuConfig } from './menuConfig';
 
 const routerConfig = [
   {
-    path: '/dashboard/monitor',
-    component: Dashboard,
+    path: '/table/general',
+    component: GeneralTable,
   },
   {
-    path: '/chart/general',
-    component: Charts,
+    path: '/profile/general',
+    component: Terms,
   },
   {
     path: '/chart/basic',
@@ -58,12 +60,12 @@ const routerConfig = [
     component: Profile,
   },
   {
-    path: '/profile/general',
-    component: Terms,
+    path: '/chart/general',
+    component: Charts,
   },
   {
-    path: '/table/general',
-    component: GeneralTable,
+    path: '/dashboard/monitor',
+    component: Dashboard,
   },
   {
     path: '/account/setting',
@@ -92,6 +94,14 @@ const routerConfig = [
   {
     path: '/user/register',
     component: UserRegister,
+  },
+  {
+    path: '/page16',
+    component: Page16,
+  },
+  {
+    path: '/BugFix',
+    component: BugFix,
   },
 ];
 

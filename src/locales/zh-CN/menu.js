@@ -32,6 +32,8 @@ export default {
   'app.menu.exception.403': '403',
   'app.menu.exception.500': '500',
 
+  'app.menu.page16': '可拖动列表',
+
   // Top Header
   'app.header.feedback': '反馈',
   'app.header.help': '帮助',

@@ -11,7 +11,7 @@ import getInjectors from './reducerInjectors';
  * @param {function} reducer A reducer that will be injected
  *
  */
-export default ({ key, reducer }) => (WrappedComponent) => {
+export default ({ key, reducer }) => WrappedComponent => {
   const getWrappedComponentName = () => {
     if (WrappedComponent.displayName) {
       const reg = /\b(\w*)\)*$/;
@@ -42,5 +42,6 @@ export default ({ key, reducer }) => (WrappedComponent) => {
     }
   }
 
+  // hoist-non-react-statics 自动帮我们拷贝所有非React的静态方法
   return hoistNonReactStatics(ReducerInjector, WrappedComponent);
 };

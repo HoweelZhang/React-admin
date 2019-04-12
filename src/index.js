@@ -7,6 +7,8 @@ import { createHashHistory } from 'history';
 // 引入默认全局样式
 import '@alifd/next/reset.scss';
 
+import 'antd/dist/antd.less';
+
 // 引入基础配置文件
 import router from './router';
 import configureStore from './configureStore';

@@ -2,6 +2,7 @@
 // headerMenuConfig：头部导航配置
 // asideMenuConfig：侧边导航配置
 
+// 头部导航栏
 const headerMenuConfig = [
   {
     name: 'feedback',
@@ -19,6 +20,7 @@ const headerMenuConfig = [
   },
 ];
 
+// 侧边导航栏
 const asideMenuConfig = [
   {
     name: 'Dashboard',
@@ -54,12 +56,12 @@ const asideMenuConfig = [
       {
         name: 'basic',
         path: '/table/basic',
-        // authority: 'admin',
+        authority: 'admin',
       },
       {
         name: 'general',
         path: '/table/general',
-        // authority: 'user',
+        authority: 'user',
       },
     ],
   },
@@ -141,6 +143,22 @@ const asideMenuConfig = [
         path: '/exception/500',
       },
     ],
+  },
+  {
+    name: 'Nav16',
+    path: '/page16',
+    icon: 'person',
+    children: [
+      {
+        name: '204',
+        path: '/page16',
+      },
+    ],
+  },
+  {
+    name: 'BugFix',
+    path: '/BugFix',
+    icon: 'home',
   },
 ];
 

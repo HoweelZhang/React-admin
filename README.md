@@ -12,8 +12,6 @@
 
 基于海量高质量可复用区块，通过 GUI 工具快速搭建的一套中后台模板。
 
-![ice-design-pro](https://img.alicdn.com/tfs/TB1_bulmpOWBuNjy0FiXXXFxVXa-1920-1080.png)
-
 ## 特性
 
 - 专业的设计支持: [ICE Design](https://alibaba.github.io/ice/design.html)

@@ -32,7 +32,7 @@ class UserLogin extends Component {
     };
   }
 
-  formChange = (value) => {
+  formChange = value => {
     this.setState({
       value,
     });
@@ -109,7 +109,7 @@ const mapDispatchToProps = {
   userLogin,
 };
 
-const mapStateToProps = (state) => {
+const mapStateToProps = state => {
   return { loginResult: state.login };
 };
 
